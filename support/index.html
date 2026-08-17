@@ -43,12 +43,12 @@
 
     <div lang-block="zh">
       <h1>PhotoTransfer 技术支持</h1>
-      <p class="lead">如果你在导入照片、授权文件夹、相册权限或实况照片合并时遇到问题，可以参考下面的说明。</p>
+      <p class="lead">如果你在导入或导出照片、授权文件夹、相册权限或实况照片传输时遇到问题，可以参考下面的说明。</p>
     </div>
 
     <div lang-block="en">
       <h1>PhotoTransfer Support</h1>
-      <p class="lead">If you run into issues with importing photos, authorizing folders, photo library permissions, or Live Photo rebuilding, start here.</p>
+      <p class="lead">If you run into issues importing or exporting media, authorizing folders, photo library permissions, or transferring Live Photos, start here.</p>
     </div>
 
     <section>
@@ -57,7 +57,7 @@
 
       <div lang-block="zh">
         <h3>为什么需要照片图库权限？</h3>
-        <p>PhotoTransfer 需要照片图库权限来添加导入的照片和视频、创建或复用 PhotoTransfer 相册，并在开启“跳过已导入项目”时检查应用相册中的已有媒体。</p>
+        <p>PhotoTransfer 需要照片图库权限来添加导入内容、读取你选中并导出的媒体、创建或复用 PhotoTransfer 相册，以及检查重复项目。</p>
 
         <h3>为什么需要从“文件”App 选择文件或文件夹？</h3>
         <p>iOS 只允许应用读取你明确授权的位置。PhotoTransfer 只会读取你通过系统文件选择器选择的文件或文件夹。</p>
@@ -65,8 +65,11 @@
         <h3>实况照片如何合并？</h3>
         <p>应用会扫描可导入项目，尝试匹配照片与对应的 MOV 文件，并把匹配结果导入为系统相册中的实况照片。</p>
 
-        <h3>导入时可以离开 App 吗？</h3>
-        <p>导入过程中请尽量保持 PhotoTransfer 运行。支持实时活动的设备可以在锁屏或灵动岛查看进度，但长时间后台运行仍可能受系统限制。</p>
+        <h3>如何导出到“文件”App？</h3>
+        <p>在导出页选择系统相册中的照片、视频或实况照片，再选择“文件”App 中的目标文件夹。可在设置中选择按年 / 月创建子目录，或不创建子目录。</p>
+
+        <h3>传输时可以离开 App 吗？</h3>
+        <p>导入或导出过程中请尽量保持 PhotoTransfer 运行。支持实时活动的设备可以在锁屏或灵动岛查看进度，但长时间后台运行仍可能受系统限制。</p>
 
         <h3>如何减少重复导入？</h3>
         <p>在设置中开启“跳过已重复导入的项目”。应用会检查 PhotoTransfer 相册中的已有媒体，帮助减少重复导入。</p>
@@ -74,7 +77,7 @@
 
       <div lang-block="en">
         <h3>Why does PhotoTransfer need photo library permission?</h3>
-        <p>PhotoTransfer needs photo library permission to add imported photos and videos, create or reuse PhotoTransfer albums, and check existing media when duplicate skipping is enabled.</p>
+        <p>PhotoTransfer needs photo library permission to add imported content, read media you select for export, create or reuse PhotoTransfer albums, and check duplicate items.</p>
 
         <h3>Why do I need to pick files or folders from Files?</h3>
         <p>iOS only allows apps to read locations you explicitly authorize. PhotoTransfer reads only files or folders selected through the system file picker.</p>
@@ -82,8 +85,11 @@
         <h3>How are Live Photos rebuilt?</h3>
         <p>The app scans importable items, matches still photos with corresponding MOV files, and imports matched pairs as Live Photos in the system photo library.</p>
 
-        <h3>Can I leave the app while importing?</h3>
-        <p>Please keep PhotoTransfer running while importing. Devices with Live Activities can show progress on the Lock Screen or Dynamic Island, but long-running background work may still be limited by the system.</p>
+        <h3>How do I export to Files?</h3>
+        <p>On the Export screen, select photos, videos, or Live Photos from your library, then choose a destination folder in Files. In Settings, choose year / month subfolders or no subfolders.</p>
+
+        <h3>Can I leave the app while transferring?</h3>
+        <p>Please keep PhotoTransfer running while importing or exporting. Devices with Live Activities can show progress on the Lock Screen or Dynamic Island, but long-running background work may still be limited by the system.</p>
 
         <h3>How do I reduce duplicate imports?</h3>
         <p>Turn on “Skip already imported items” in Settings. The app checks existing media in the PhotoTransfer album to help reduce repeated imports.</p>
@@ -99,7 +105,7 @@
         <ul>
           <li>设备型号和 iOS 版本</li>
           <li>PhotoTransfer 版本号</li>
-          <li>问题发生在选择文件、扫描、导入、权限还是实时活动阶段</li>
+          <li>问题发生在选择文件、扫描、导入、导出、权限还是实时活动阶段</li>
           <li>是否包含实况照片、视频或大量文件</li>
         </ul>
         <p class="note">技术支持邮箱：<a href="mailto:jerrytian92@outlook.com">jerrytian92@outlook.com</a></p>
@@ -110,7 +116,7 @@
         <ul>
           <li>Device model and iOS version</li>
           <li>PhotoTransfer version</li>
-          <li>Whether the issue happens during file selection, scanning, importing, permissions, or Live Activities</li>
+          <li>Whether the issue happens during file selection, scanning, importing, exporting, permissions, or Live Activities</li>
           <li>Whether the import includes Live Photos, videos, or a large number of files</li>
         </ul>
         <p class="note">Support email: <a href="mailto:jerrytian92@outlook.com">jerrytian92@outlook.com</a></p>
@@ -119,7 +125,7 @@
   </main>
 
   <footer class="footer">
-    <span>© 2026 PhotoTransfer.</span>
+    <span>© 2026 jerryt92.</span>
   </footer>
   <script src="../assets/site.js"></script>
 </body>
